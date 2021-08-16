@@ -1,0 +1,7 @@
+source /Users/satrai/Documents/FastAPI/FastAPI_Env/bin/activate
+
+source /Users/satrai/Documents/FastAPI/blog_env/bin/activate
+
+pip3 install -r requirements.txt
+
+uvicorn blog.main:app --reload
